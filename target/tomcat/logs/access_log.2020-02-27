@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:11:56:46 +0300] "GET /TestApp HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:11:56:46 +0300] "GET /TestApp/ HTTP/1.1" 200 1979 http-bio-8080-exec-2 720
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:11:56:47 +0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:11:56:53 +0300] "POST /TestApp/MainServlet HTTP/1.1" 200 2259 http-bio-8080-exec-4 2321
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:11:57:29 +0300] "POST /TestApp/MainServlet HTTP/1.1" 200 1834 http-bio-8080-exec-5 564
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:14:19:09 +0300] "POST /TestApp/MainServlet HTTP/1.1" 200 1834 http-bio-8080-exec-7 983

@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:10:15:18 +0300] "GET /TestApp/ HTTP/1.1" 200 1979 http-bio-8080-exec-2 25
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:10:15:26 +0300] "GET /TestApp/ HTTP/1.1" 200 1979 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:10:15:44 +0300] "POST /TestApp/MainServlet HTTP/1.1" 200 1991 http-bio-8080-exec-2 3369
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:10:16:02 +0300] "GET /TestApp HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:10:16:02 +0300] "GET /TestApp/ HTTP/1.1" 200 1979 http-bio-8080-exec-2 1
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:10:23:01 +0300] "GET /TestApp/about.jsp HTTP/1.1" 404 985 http-bio-8080-exec-8 10
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:10:23:53 +0300] "POST /TestApp/MainServlet HTTP/1.1" 200 1991 http-bio-8080-exec-8 5008
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:13:35:02 +0300] "GET /TestApp HTTP/1.1" 302 - http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:13:35:02 +0300] "GET /TestApp/ HTTP/1.1" 200 1979 http-bio-8080-exec-10 13
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:13:35:03 +0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:14:36:25 +0300] "POST /TestApp/MainServlet HTTP/1.1" 500 1685 http-bio-8080-exec-6 3106
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:14:36:36 +0300] "POST /TestApp/MainServlet HTTP/1.1" 200 1991 http-bio-8080-exec-7 492
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:14:40:03 +0300] "POST /TestApp/MainServlet HTTP/1.1" 500 1685 http-bio-8080-exec-9 228
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:17:50:50 +0300] "GET /TestApp HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:17:50:50 +0300] "GET /TestApp/ HTTP/1.1" 200 1979 http-bio-8080-exec-1 15
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:17:50:56 +0300] "POST /TestApp/MainServlet HTTP/1.1" 500 1685 http-bio-8080-exec-1 4873
